@@ -1,0 +1,69 @@
+{
+  "peliculas": [
+    {
+      "id": "1",
+      "nombre": "El sexto sentido",
+      "categoria": "Drama"
+    },
+    {
+      "id": "2",
+      "nombre": "Pulp Fiction",
+      "categoria": "Accion"
+    },
+    {
+      "id": "3",
+      "nombre": "Toy Story",
+      "categoria": "Animacion"
+    },
+    {
+      "id": "4",
+      "nombre": "El viaje de Chihiro",
+      "categoria": "Animacion"
+    },
+    {
+      "id": "5",
+      "nombre": "Gladiador",
+      "categoria": "Accion"
+    },
+    {
+      "id": "6",
+      "nombre": "Forrest Gump",
+      "categoria": "Comedia"
+    },
+    {
+      "id": "7",
+      "nombre": "Shrek",
+      "categoria": "Animacion"
+    },
+    {
+      "id": "8",
+      "nombre": "Matrix",
+      "categoria": "Accion"
+    },
+    {
+      "id": "9",
+      "nombre": "La La Land",
+      "categoria": "Drama"
+    },
+    {
+      "id": "10",
+      "nombre": "Los Increíbles",
+      "categoria": "Animacion"
+    },
+    {
+      "id": "11",
+      "nombre": "Piratas del Caribe",
+      "categoria": "Accion"
+    },
+    {
+      "id": "12",
+      "nombre": "La máscara",
+      "categoria": "Comedia"
+    },
+    {
+      "id": 13,
+      "nombre": "101 Dálmatas ",
+      "categoria": "Animacion"
+    }
+  ]
+}

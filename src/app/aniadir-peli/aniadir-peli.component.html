@@ -1,0 +1,26 @@
+<div class="form-container">
+    <h2>Añadir Película</h2>
+    <form (ngSubmit)="agregarPelicula()" >
+      <div>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" [(ngModel)]="nuevaPelicula.nombre" name="nombre" required />
+      </div>
+      <div>
+        <label for="categoria">Categoría</label>
+        <select id="categoria" [(ngModel)]="nuevaPelicula.categoria" name="categoria" required>
+          <option value="Drama">Drama</option>
+          <option value="Accion">Accion</option>
+          <option value="Animacion">Animacion</option>
+          <option value="Comedia">Comedia</option>
+        </select>
+      </div>
+      <button type="submit">Añadir Película</button>
+    </form>
+ 
+  </div>
+  <div class="text-center">
+    <button [routerLink]="['/inicio']" routerLinkActive="router-link-active">
+      Volver a Inicio
+    </button>
+  </div>
+  

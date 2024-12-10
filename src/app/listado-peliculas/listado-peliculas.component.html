@@ -1,0 +1,11 @@
+<h1>Películas en la categoría: {{ categoria }}</h1>
+<ul>
+  <li *ngFor="let pelicula of peliculas">
+    {{ pelicula.nombre }}
+  </li>
+</ul>
+<div class="text-center">
+  <a [routerLink]="['/inicio']" routerLinkActive="router-link-active">Volver a Inicio</a>
+  <br>
+  <a [routerLink]="['/aniadir']" routerLinkActive="router-link-active" >Añadir Peli</a>
+</div>

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #468c87; /* Azul verdoso */
+  }
+  
+  /* Estilos para el header */
+  .container-fluid {
+   
+    top: 0;
+    width: 100%;
+    background-color: #09c7e067; /* Fondo negro */
+    padding: 10px 0; /* Espaciado superior e inferior */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar relieve */
+  }
+  
+  /* Estilos para el contenedor de botones */
+  nav {
+    display: flex;
+    justify-content: space-evenly; /* Espaciado uniforme entre botones */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letra blanca */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Manito al pasar el cursor */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s ease; /* Efecto de transición */
+  }
+  
+  /* Cambio de color al pasar el cursor */
+  button:hover {
+    background-color: rgb(243, 0, 0); /* Un tono más claro de negro */
+  }
